@@ -1,0 +1,46 @@
+body{background-color:#083166;}
+#row{width:100%;}
+h1{color: #c5dcfa;
+font-size:50px;}
+*{box-sizing:bordr-box;
+margin:0;
+padding:5px;}
+p{
+position:relative;
+float:right;
+background-color:grey;
+color:white;
+padding:1px;border: 1px solid red;
+}
+.mars,.pluto,.saturn{
+border: 1px solid red;
+background-color: #c5dcfa;
+height:200px;
+overflow:auto;
+margin-right:auto;
+margin-left:auto;
+margin:5px;
+font-size:20px;
+}
+.container{
+border:2px;padding:2px;border-color:white;width:100%
+}
+@media(min-device-width:992px ){
+.mars{float:left;width:31%;}
+.saturn{float:left;width:31%;}
+.pluto{float:left;width:31%;}
+}
+
+@media (min-device-width:768px  and max-device-width:991px )
+{
+.mars{float:left;width:50%;}
+.saturn{float:left;width:50%;}
+.pluto{float:right;width:100%;}
+
+}
+
+@media(max-device-width:767px ){.mars{float:left;width:100%;}
+.saturn{float:left;width:100%;}
+.pluto{float:left;width:100%;}
+
+}
